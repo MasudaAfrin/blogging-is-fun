@@ -38,3 +38,5 @@ yarn-debug.log*
 .idea
 vendor/*
 vendor/cache/*
+
+/config/database.yml
