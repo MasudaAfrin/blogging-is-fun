@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It is a simple blogging application. User can register, signin, write content, upload multiple images, comment and like.
 
-Things you may want to cover:
+**Dependencies:**
 
-* Ruby version
+* Ruby Version: 2.7.1
+* Rails Version: 6.1.5
+* Webpacker: 5.4.3
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**How To Run**
+* git clone "git repository"
+* run **bundle install**
+* configure the database in /config/database.yml with username, password and hot
+* database create: **rails db:create**
+* migrate the tables: **rails db:migrate**
+* run the app: **rails s**
+* If you want to go rails console: **rails c**
